@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Tarea2</string>
+    <string name="logo_desc">Logo de The Witcher 3</string>
+    <string name="descripcion_app">Explora ingredientes de alquimia y aprende más sobre el mundo de The Witcher 3.</string>
+    <string name="texto_apodo">Ingresa tu apodo para personalizar la experiencia:</string>
+    <string name="texto_correo">Si lo deseas, ingresa tu correo para recibir noticias del juego:</string>
+    <string name="hint_apodo">Ingresa tu apodo</string>
+    <string name="hint_email">Ingresa tu correo electrónico</string>
+    <string name="boton_continuar">Continuar</string>
+    <string name="texto_instruccion">Si desea saber más sobre algún ingrediente, selecciónelo por favor.</string>
+    <string name="ingrediente1_nombre">Pasta de alquimista</string>
+    <string name="ingrediente2_nombre">Polvo de alquimista</string>
+    <string name="ingrediente3_nombre">Lengua de ahogado</string>
+    <string name="ingrediente4_nombre">Sangre de Ghoul</string>
+    <string name="ingrediente_1">Ingrediente 1</string>
+    <string name="ingrediente_2">Ingrediente 2</string>
+    <string name="ingrediente_3">Ingrediente 3</string>
+    <string name="ingrediente_4">Ingrediente 4</string>
+</resources>

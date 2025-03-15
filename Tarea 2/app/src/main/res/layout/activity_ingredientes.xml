@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/verde_olivo"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textoInstruccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_instruccion"
+        android:textSize="18sp"
+        android:textColor="@color/blanco"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:layout_gravity="center">
+
+        <!-- Mejor los enumero. Si no, me pierdo...-->
+        <!-- Ingrediente 1 -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:focusable="true"
+            android:radius="8dp"
+            android:clickable="true"
+            android:onClick="mostrarInfo">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ingrediente1"
+                    android:contentDescription="@string/ingrediente_1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ingrediente1_nombre"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:gravity="center"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Ingrediente 2 -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:focusable="true"
+            android:radius="8dp"
+            android:clickable="true"
+            android:onClick="mostrarInfo">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ingrediente2"
+                    android:contentDescription="@string/ingrediente_2"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ingrediente2_nombre"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:gravity="center"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <!-- Ingrediente 3 -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:focusable="true"
+            android:radius="8dp"
+            android:clickable="true"
+            android:onClick="mostrarInfo">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ingrediente3"
+                    android:contentDescription="@string/ingrediente_3"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ingrediente3_nombre"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:gravity="center"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <!-- Ingrediente 4 -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:focusable="true"
+            android:radius="8dp"
+            android:clickable="true"
+            android:onClick="mostrarInfo">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ingrediente4"
+                    android:contentDescription="@string/ingrediente_4"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ingrediente4_nombre"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"
+                    android:gravity="center"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </GridLayout>
+
+</LinearLayout>
